@@ -2,7 +2,6 @@
 
 cp /home/jenkins/*.war /home/jenkins/workspace/doc-build
 
-cd /var/lib/jenkins/workspace/doc-build
 
 docker build -t webserver:$(build_number) .
 
